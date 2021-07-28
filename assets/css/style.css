@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
 * {
     outline: none !important;
     border: none !important;
@@ -6,7 +8,9 @@
 
 .bodi {
     height: 100vh;
-    background-color: #3bacbb;
+    background-color: #3a0ca3;
+    font-family: 'Quicksand';
+
 }
 
 .card {
@@ -20,28 +24,26 @@
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #dbd377 !important;
+    background-color: #560bad !important;
     background-clip: border-box;
     border: 0px solid rgba(0, 0, 0, 0) !important;
     border-radius: 10px !important;
 }
 
 .judul {
-    font-family: 'Concert One', cursive;
-    color: #D3F3EE;
+    color: white;
 }
 
 .subjudul {
-    font-family: 'Concert One';
-    color: #3bacbb;
+    color: #560bad;
 }
 
 .tombol {
-    background: #3bacbb;
+    background: #white;
     border: none;
     outline: none;
     border-radius: 6px;
-    color: #D3F3EE;
+    color: #black;
     padding: 10px;
     font-weight: bold;
 }
@@ -52,17 +54,17 @@
     border: none;
     outline: none;
     border-radius: 6px;
-    color: #3bacbb;
+    color: #560bad;
     padding: 10px;
     font-weight: bold;
 }
 
 .modal-content {
-    background-color: #dbd377 !important;
+    background-color: #560bad !important;
 }
 
 .modal-body {
-    color: #3bacbb !important;
+    color: white !important;
 }
 
 .circle {
